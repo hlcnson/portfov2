@@ -1,0 +1,36 @@
+
+// Import SCSS từ file _fonts.scss
+@import './shared/fonts';
+// Import SCSS từ file _index.scss
+@import './index';
+
+// Import SCSS từ file _header.scss (Component)
+@import './_header';
+
+
+html, body {
+    height:100%;
+    width:100%;
+    font-family: 'CrimsonPro', 'Helvetica';
+}
+
+
+.self-typed{
+    font-size: 31px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.base-page{
+    padding-top: 150px;
+    color: white;
+}
+
+.clickable{
+    cursor: pointer;
+}

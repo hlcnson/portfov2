@@ -1,0 +1,30 @@
+// Dùng ký tự _ trong tên file _fonts.scss để chỉ thị
+// đây là một partial file
+
+@font-face{
+    font-family: 'CrimsonPro';
+    src: url('/static/fonts/CrimsonPro-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'CrimsonPro';
+    src: url('/static/fonts/CrimsonPro-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'CrimsonPro';
+    src: url('/static/fonts/CrimsonPro-Light.ttf');
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'CrimsonPro';
+    src: url('/fonts/CrimsonPro-RegularItalic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
